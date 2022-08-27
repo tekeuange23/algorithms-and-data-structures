@@ -1,0 +1,154 @@
+# depslib dependency file v1.0
+1579156471 source:e:\ange\projets\c\structure de donnees\fonctionsmathematiques.c
+	"FonctionsMathematiques.h"
+
+1579156500 Mathematiques.h"
+
+1579156461 e:\ange\projets\c\structure de donnees\fonctionsmathematiques.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<conio.h>
+	"Tries.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550483936 h"
+
+1550439191 e:\ange\projets\c\structure de donnees\tries.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550480659 e:\ange\projets\c\structure de donnees\structures.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Etudiant.h"
+
+1541940946 e:\ange\projets\c\structure de donnees\etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Structures.h"
+
+1550480960 s.h"
+
+1579156500 source:e:\ange\projets\c\structure de donnees\main.c
+	"FonctionsMathematiques.h"
+
+1550480960 source:e:\ange\projets\c\structure de donnees\structures.c
+	"Structures.h"
+
+1578858894 source:e:\ange\projets\c\structure de donnees\tries.c
+	"Tries.h"
+
+1578858894 
+
+1550483936 source:e:\ange\projets\c\structure de donnees\etudiant.c
+	"Etudiant.h"
+
+1550483936 source:/home/ange/Desktop/Structure de donnees/Etudiant.c
+	"Etudiant.h"
+
+1541940946 /home/ange/Desktop/Structure de donnees/Etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Structures.h"
+
+1606938096 /home/ange/Desktop/Structure de donnees/FonctionsMathematiques.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"Tries.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550439191 /home/ange/Desktop/Structure de donnees/Tries.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550480659 /home/ange/Desktop/Structure de donnees/Structures.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Etudiant.h"
+
+1550480960 source:/home/ange/Desktop/Structure de donnees/Structures.c
+	"Structures.h"
+
+1578858894 source:/home/ange/Desktop/Structure de donnees/Tries.c
+	"Tries.h"
+
+1606938548 source:/home/ange/Desktop/Structure de donnees/main.c
+	"FonctionsMathematiques.h"
+
+1606938200 source:/home/ange/Desktop/Structure de donnees/FonctionsMathematiques.c
+	"FonctionsMathematiques.h"
+
+1661590666 source:/home/ange/WORKSPACE/C++/Data-structures/Etudiant.c
+	"Etudiant.h"
+
+1661590061 /home/ange/WORKSPACE/C++/Data-structures/Etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Structures.h"
+
+1606938096 /home/ange/WORKSPACE/C++/Data-structures/FonctionsMathematiques.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"Tries.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550439191 /home/ange/WORKSPACE/C++/Data-structures/Tries.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Structures.h"
+	"Etudiant.h"
+
+1550480659 /home/ange/WORKSPACE/C++/Data-structures/Structures.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"FonctionsMathematiques.h"
+	"Tries.h"
+	"Etudiant.h"
+
+1606938200 source:/home/ange/WORKSPACE/C++/Data-structures/FonctionsMathematiques.c
+	"FonctionsMathematiques.h"
+
+1661591189 source:/home/ange/WORKSPACE/C++/Data-structures/main.c
+	"FonctionsMathematiques.h"
+
+1578858894 source:/home/ange/WORKSPACE/C++/Data-structures/Tries.c
+	"Tries.h"
+
+1661588132 source:/home/ange/WORKSPACE/C++/Data-structures/Structures.c
+	"Structures.h"
+

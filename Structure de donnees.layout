@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="Tries.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3221" topLine="13" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="9" />
+			<Collapse line="16" />
+			<Collapse line="23" />
+			<Collapse line="34" />
+			<Collapse line="48" />
+		</Folding>
+	</File>
+	<File name="Etudiant.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="426" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Structures.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5470" topLine="132" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+			<Collapse line="31" />
+			<Collapse line="54" />
+			<Collapse line="68" />
+			<Collapse line="89" />
+		</Folding>
+	</File>
+	<File name="FonctionsMathematiques.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2019" topLine="49" />
+		</Cursor>
+		<Folding>
+			<Collapse line="9" />
+			<Collapse line="24" />
+			<Collapse line="30" />
+		</Folding>
+	</File>
+	<File name="Structures.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16628" topLine="770" />
+		</Cursor>
+	</File>
+	<File name="FonctionsMathematiques.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="150" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10972" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="10" />
+			<Collapse line="50" />
+			<Collapse line="64" />
+			<Collapse line="78" />
+			<Collapse line="95" />
+			<Collapse line="125" />
+			<Collapse line="165" />
+			<Collapse line="235" />
+			<Collapse line="256" />
+		</Folding>
+	</File>
+	<File name="Tries.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="719" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Etudiant.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2181" topLine="2" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="15" />
+			<Collapse line="42" />
+			<Collapse line="47" />
+			<Collapse line="54" />
+			<Collapse line="63" />
+			<Collapse line="74" />
+			<Collapse line="84" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>
