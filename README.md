@@ -287,7 +287,6 @@ between the nodes.
 as the "parent" and nodes following it are "child" nodes.
 
 ### Binary Trees
----
 [Code](Structures.h#L150)
 
 There is a specific type of tree referred to as a "Binary Tree", which restricts 
@@ -300,7 +299,6 @@ root node and each node is itself an object with an associated value, along with
 a left and right node linked to.
 
 ### Binary Search Trees
----
 [Code](Structures.h#L165)
 
 There is another type of tree called a "Binary Search Tree" and this is an 
@@ -311,8 +309,7 @@ The calculation is very simple: if a node has a lesser value than its parent it
 is placed in the "left" node position. If on the other hand it has a greater value 
 than its parent it is placed in the "right" node position.
 
-### HEAP
----
+### Binary HEAPs
 [Code](Structures.h#L179)
 
 Heap data structure is a complete binary tree that satisfies the heap property, where any given node is
@@ -324,8 +321,7 @@ Heap data structure is a complete binary tree that satisfies the heap property, 
 ### API
 
 - `pushNode` (adds new node to the tree; which can require traversal of the tree)
-- `estDeRecherche` (traversal method: visits all nodes in ascending order?),
-- `pre_order` (traversal method: same as `estDeRecherche` but prints the current node *before* checking the left/right child nodes)
+- `estDeRecherche` (traversal method: to recursively check if the tree is a search one),
 - `affichePrefixe` (traversal method: same as `estDeRecherche` but prints the current node *after* checking the left/right child nodes)
 - `show` (display the current node's value)
 - `clearTree` (free the memory allocated for a tree)
@@ -334,7 +330,7 @@ Heap data structure is a complete binary tree that satisfies the heap property, 
 and need to be carefully implemented to ensure  
 they do not cause a Stack Overflow error
 
-#### ? `estDeRecherche`
+#### * `estDeRecherche` *
 
 The `estDeRecherche` function would theorectically look something like [Code](Structures.c#L622):
 
@@ -350,11 +346,10 @@ int estDeRecherche(Arbre a)
     return (estDeRecherche(a->fg)) && (estDeRecherche(a->fd));
 }
 ```
-
 Now imagine we have the following Binary Search Tree structure:
 
 ```
-     23
+     23     <-- tree (the head pointer)
      |
    -------
    |     |
@@ -365,49 +360,16 @@ Now imagine we have the following Binary Search Tree structure:
 03  22  37 99
 ```
 
-If we executed `estDeRecherche(23)` we would see the following output:
+If we executed `estDeRecherche(tree)` we would see the following output:
 
-`3 16 22 23 37 45 99`
+`1` which stand for `TRUE`: it means the tree is a binary search tree.
 
-This is how it works...
+If we replace 22 with 24, it will return `0`.
 
-If we passed in the root node (23) to `estDeRecherche` then that function would check 
-if the root node had a value and if it did it would check to see if it had a left 
-child node (which it does: 16). 
-
-Through recursion the function would check if that node had value (it does: 16) 
-and then check if itself had a left child node (it does: 03).
-
-From there it would check if the `03` node had a left child node (it doesn't). 
-So it would fail the check for `nil?` and move back up the function call stack
-print `03` (using the `node.show` function) and then see if the `03` node had a 
-right value (it doesn't).
-
-Now the code again moves back up the function call stack and print `16` and now 
-check if the node `16` has a right node (it does: 22).
-
-Does `22` have a value, yes so see if it has a left node (it doesnt), so move 
-back up the function call stack and print `22` and now check if it has a right 
-node (it doesn't) so again move up the function call stack and that takes us 
-back to the root node `23` which we print and see if that has a right node 
-(it does: 45)... and so forth until the end.
-
-#### Function Output
-
-Inorder traversal:  
-3 16 22 23 37 45 99
-
-Preorder traversal:  
-23 16 3 22 45 37 99
-
-Postorder traversal:  
-3 22 16 37 99 45 23
 
 ### Properties
-
 - No direct access to nodes (start from the head/root and navigate down)
 
 ### Usefulness
-
 - Quick to search
 - Quick insertion/deletion
